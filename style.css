@@ -15,7 +15,7 @@ body{
     background-size: auto;
 }
 
-button {
+button{
     background-color: #FDFDFD;
     color: #0D001E;
     border: 2px solid #0D001E;
@@ -28,7 +28,7 @@ button {
     transition: 0.4s;
 }
 
-button:hover {
+button:hover{
     background-color: #0D001E;
     color: #BD97EC;   
 
@@ -39,7 +39,7 @@ button:hover > i{
 
 }
 
-button i {
+button i{
     color: #0D001E;
     font-weight: bold;
     pointer-events: none;
@@ -48,4 +48,25 @@ button i {
 
 input, select{
     padding: 0.25rem 0.5rem;
+}
+
+.hide{
+    display: none;
+}
+
+/* ToDo header */
+
+.todo-container{
+    max-width: 450px;
+    margin: 3rem auto 0;
+    background-color: #FDFDFD;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.todo-container header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+
 }
