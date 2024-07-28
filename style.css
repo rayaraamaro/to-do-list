@@ -4,29 +4,3 @@
     box-sizing: border-box;
 }
 
-.name-list{
-    font-size: 40px;
-    color: palevioletred;
-    font-family: "Manrope", sans-serif;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
-}
-
-.list{
-    font-size: 30px;
-    color: black;
-    font-family: "Inter", sans-serif;
-    font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.box-list{
-    background-color: pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}

@@ -3,38 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-do list</title>
+    <title>To-do List</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&family=Inter&family=Nunito+Sans:opsz@6..12&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap"
     rel="stylesheet">
 </head>
 <body>
 
-    <div class="name-list">
-        <h1>Study List</h1>
-    </div>
+    <div class="todo-container">
+        <header>
+            <h1>To-Do List</h1>
+        </header>
+        <form id="todo-form">
+            <p>Adicione uma nova tarefa:</p>
+            <div class="form-control">
+                <input type="text" id="todo-input" placeholder="Nova tarefa">
+                <button type="submit">
+                    <i class="fa-thin fa-plus"></i>
+                </button>
 
-    <div class="box-list">
-        <form class="list">
-            <div>
-                <input 
-                type="checkbox" id="matematica" name="interesse" value="matematica" />
-                <label for="matematica">Matemática</label>
-            </div>
-            <div>
-                <input type="checkbox" id="portugues" name="interesse" value="portugues"/>
-                <label for="portugues">Portugues</label>
-            </div>
-            <div>
-                <input 
-                type="checkbox" id="geografia" name="interesse" value="geografia" />
-                <label for="geografia">Geografia</label>
-            </div>
-            <div>
-                <input type="checkbox" id="historia" name="interesse" value="historia"/>
-                <label for="historia">História</label>
             </div>
         </form>
+        
     </div>
     
     
