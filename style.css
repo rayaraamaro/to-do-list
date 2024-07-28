@@ -1,6 +1,51 @@
+/* Geral */
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: Helvetica;
+    color: #0D001E;
+    
 }
 
+body{
+    background-image: url("./img/backgroud_lilas.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+button {
+    background-color: #FDFDFD;
+    color: #0D001E;
+    border: 2px solid #0D001E;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #0D001E;
+    color: #BD97EC;   
+
+}
+
+button:hover > i{
+    color: #BD97EC;   
+
+}
+
+button i {
+    color: #0D001E;
+    font-weight: bold;
+    pointer-events: none;
+
+}
+
+input, select{
+    padding: 0.25rem 0.5rem;
+}
